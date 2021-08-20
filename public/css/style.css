@@ -129,6 +129,7 @@ footer {
 }
 
 .author a {
+    color: var(--magenta);
     text-decoration: none;
 }
 
