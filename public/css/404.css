@@ -132,7 +132,7 @@ body {
     }
 }
 
-@media screen and (max-height: 860px) {
+@media screen and (orientation: portrait) {
     .card {
         box-shadow: 0px 0px 20px 10px rgba(108, 114, 203, 0.2) !important;
         -webkit-box-shadow: 0px 0px 20px 10px rgba(108, 114, 203, 0.2) !important;
