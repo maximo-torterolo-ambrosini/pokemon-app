@@ -40,6 +40,11 @@ a:visited {
     color: var(--magenta);
 }
 
+a {
+    text-decoration: none;
+    color: var(--magenta);
+}
+
 footer {
     margin-top: auto;
     display: block;

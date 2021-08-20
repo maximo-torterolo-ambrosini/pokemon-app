@@ -30,7 +30,7 @@ const loadTemplate = async () => {
 
 # ⚙ - How to run it?
 
-Install [Node.js](https://nodejs.org/en/) and after cloning the repositorie run the following commands in console.
+Install [Node.js](https://nodejs.org/en/) and after cloning the repository run the following commands in console.
 
 ```
 npm i
@@ -55,9 +55,9 @@ npm start
 
 1. Go to [Heroku](https://dashboard.heroku.com/login).
 
-2. Clone the repositorie in your Desktop.
+2. Clone the repository in your Desktop.
 
-3. After cloning the repositorie in your Desktop follow the steps from Heroku and deploy it.
+3. After cloning the repository in your Desktop follow the steps from Heroku and deploy it.
 
 4. Run the procfile using the following command (it's assumed that you have Heroku CLI installed and you included the NodeJS WebPack) `heroku ps:scale web=1 --app app_name` replace app_name with the name of your app. You can consult it running `heroku apps` in your CLI.
 
