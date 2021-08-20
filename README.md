@@ -15,7 +15,7 @@ const loadTemplate = async () => {
         const container = document.querySelector(".container"); // The container is selected
 
         container.innerHTML = await template.text(); // The fetch response is passed as string to the innerHTML
-        //  of the container
+                                                    //  of the container
 
         const pokemon = await fetchPokemon(1); // Requesting the first pokémon of the pokedex (Bulbasur💚)
         const card = document.getElementById("template");
