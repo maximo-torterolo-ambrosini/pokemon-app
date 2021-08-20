@@ -28,14 +28,16 @@ const loadTemplate = async () => {
 
 const setValues = async (HTMLElement, pokemon) => {
     let types = "";
-    HTMLElement.querySelector('.img').setAttribute('src', pokemon.photo);
-    HTMLElement.querySelector('.img').setAttribute('alt', pokemon.name);
-
-    HTMLElement.querySelector('#order').innerHTML = pokemon.order;
+    HTMLElement.querySelector('.img').setAttribute('src', 'img/pokeball.gif');
+    HTMLElement.querySelector('.img').setAttribute('alt', 'Loading...');
     HTMLElement.querySelector('#name').innerHTML = pokemon.name;
+    HTMLElement.querySelector('#order').innerHTML = pokemon.order;
     HTMLElement.querySelector('#HP').innerHTML = pokemon.HP;
     HTMLElement.querySelector('#attack').innerHTML = pokemon.attack;
     HTMLElement.querySelector('#defense').innerHTML = pokemon.defense;
+
+    HTMLElement.querySelector('.img').setAttribute('src', pokemon.photo);
+    HTMLElement.querySelector('.img').setAttribute('alt', pokemon.name);
 
     if (pokemon.types.length == 2) {
 
