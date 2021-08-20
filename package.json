@@ -1,0 +1,16 @@
+{
+    "name": "pokemon-app",
+    "version": "1.0.0",
+    "description": "Pokemon-app it's a simple web app that consumes a RESTful API of Pokémon from PokéAPI",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Maximo Torterolo Ambrosini",
+    "license": "MIT",
+    "dependencies": {
+        "express": "4.17.1",
+        "nodemon": "2.0.12"
+    }
+}
