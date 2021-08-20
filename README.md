@@ -1,6 +1,6 @@
 # 🐭⚡ - Pokemon-app
 
-Pokemon-api it's a simple web app that consumes a RESTful API of Pokémon from PokéAPI. Learn more about PokéApi [here](https://pokeapi.co/about).
+Pokemon-app it's a simple web app that consumes a RESTful API of Pokémon from PokéAPI. Learn more about PokéApi [here](https://pokeapi.co/about).
 
 # 🤔 - How the code work?
 
