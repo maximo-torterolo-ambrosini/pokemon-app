@@ -30,6 +30,7 @@ const setValues = async (HTMLElement, pokemon) => {
     let types = "";
     HTMLElement.querySelector('.img').setAttribute('src', 'img/pokeball.gif');
     HTMLElement.querySelector('.img').setAttribute('alt', 'Loading...');
+    
     HTMLElement.querySelector('#name').innerHTML = pokemon.name;
     HTMLElement.querySelector('#order').innerHTML = pokemon.order;
     HTMLElement.querySelector('#HP').innerHTML = pokemon.HP;
