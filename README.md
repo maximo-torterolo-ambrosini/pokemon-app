@@ -2,7 +2,7 @@
 
 Pokemon-app it's a simple web app that consumes a RESTful API of Pokémon from PokéAPI. Learn more about PokéApi [here](https://pokeapi.co/about).
 
-# 🤔 - How the code work?
+# 🤔 - How does the code work?
 
 Using fetch, the code requests the card template and then clones it into the body container.
 The pokemon are lazy loaded using an IntersectionObserver for the Footer.
